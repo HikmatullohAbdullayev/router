@@ -1,9 +1,10 @@
 import React from 'react';
+import notFoundImg from "../assets/NotFound.png" 
 
 function NotFound(props) {
     return (
         <div>
-            Not Found
+            <img className='w-[800px] mx-auto' src={notFoundImg} alt="Page Not Found" />
         </div>
     );
 }
