@@ -1,3 +1,15 @@
 .active{
     color:red;
 }
+body{
+    background-color: #141414;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 1140px;
+    width: 100px;
+
+}
