@@ -1,31 +1,12 @@
+import React from 'react';
+import MainLayout from './layout/MainLayout';
 
-import React from "react"
-
-
-import './App.css'
-import Header from "./header/Header"
-import { Outlet } from "react-router-dom"
-
-function App() {
-
+function App(props) {
   return (
-    <>
-      
-      <header >
-
-<Header/>
-</header>
-<main className="w-[1240px] mx-auto mt-10">
-  <Outlet/>
-</main>
-
-      
-
-    </>
-  )
+    <div>
+      <MainLayout/>
+    </div>
+  );
 }
 
-export default App
-
-
-
+export default App;
