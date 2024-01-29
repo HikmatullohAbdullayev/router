@@ -65,7 +65,7 @@ function CategorySection (props) {
       
      <div className="flex justify-between items-center gap-7 mt-20">
       {cardData.map((item) => (
-        <div key={item.id} className=" p-8 cursor-pointer gap-2">
+        <div key={item.id} className=" p-8 cursor-pointer gap-2 bg-[#1A1A1A] rounded-lg hover:bg-[#262626]">
           <img className="w-full" src={item.img} alt="img" />
           <div className="flex justify-between items-center pt-2 ">
             <h3 className="text-white text-[18px] font-semibold leading-[27px]">{item.title}</h3>
