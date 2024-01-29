@@ -5,9 +5,9 @@ import NotificationIcon from "../../assets/icon/NotificationIcon"
 
 function Header(props) {
   return (
-    <div className=" container  flex justify-between items-center py-6 px-6 bg-transparent">
+    <div className=" sticky container  flex justify-between items-center py-6 px-6 bg-transparent">
       <img src={LogoImg} alt="logo" />
-      <nav>
+      <nav className="rounded-xl border-4 border-solid border-[#1A1A1A]">
         <ul className="flex items-center justify-between rounded-lg bg-black py-2 px-9 gap-8">
           <li className="  py-2 px-4 text-white rounded-lg hover:bg-[#1A1A1A]">
             <a href="#"> Home</a>
