@@ -13,3 +13,9 @@ body{
     width: 100px;
 
 }
+button > span{
+    display: none;
+}
+button{
+    border:none;
+}
