@@ -50,15 +50,15 @@ function PlanSection(props) {
         </div>
       </div>
 
-      <div className="flex">
+      <div className="flex  gap-8 mt-[80px]">
         {planData.map((item) =>(
-            <div className="">
+            <div className= "bg-[#1A1A1A] p-[30px] rounded-lg">
                 <h3 className="w-[412px] text-white text-2xl font-bold  leading-9" >{item.title}</h3>
-                <p className="w-[412px] text-neutral-400 text-lg font-normal leading-[27px]">{item.text}</p>
-                <p className="text-white text-[40px] font-semibold  leading-[29.20px]">{item.price}<span className="text-neutral-400 text-lg font-medium  leading-[13.14px]">/Month</span></p>
-                <div className="buttons flex">
-                    <button className=" ">Start Free Trial</button>
-                    <button className=" ">Choose Plan</button>
+                <p className="w-[412px] text-neutral-400 text-lg font-normal leading-[27px] mt-[16px]">{item.text}</p>
+                <p className="text-white text-[40px] font-semibold  leading-[29.20px] mt-[50px]">{item.price}<span className="text-neutral-400 text-lg font-medium  leading-[13.14px]">/Month</span></p>
+                <div className="buttons flex gap-5 mt-[50px]">
+                    <button className=" rounded-lg text-white text-lg font-semibold  leading-[27px] py-[18px] px-6 bg-[text-lg font-semibold  leading-[27px]] bg-[#262626] ">Start Free Trial</button>
+                    <button className=" rounded-lg text-white text-lg font-semibold leading-[27px] py-[18px] px-6 bg-red-600 ">Choose Plan</button>
                 </div>
             </div>
         ))}
