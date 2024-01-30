@@ -2,7 +2,7 @@ import React from 'react';
 import { Accordion, AccordionItem } from "@nextui-org/accordion";
 
 const defaultContent =
-  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae minus culpa nesciunt, distinctio est impedit molestias iure nulla iusto deleniti possimus reiciendis, quo optio fugit minima, ea veniam? Iste, dolor.";
+  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae minus culpa nesciunt, distinctio est impedit molestias .";
 
 
 const left =[
@@ -78,7 +78,7 @@ function Accardion(props) {
                   </p>
                 </div>
               }
-            ><p className="p-2">
+            ><p className="p-2 w-[700px]">
             {defaultContent}</p>
             </AccordionItem>
             ))}
@@ -101,7 +101,7 @@ function Accardion(props) {
       </p>
     </div>
   }
-><p className="p-2">
+><p className="p-2 w-[700px]">
             {defaultContent}</p>
 </AccordionItem>
 ))}
