@@ -3,7 +3,7 @@ import Banner_2 from "../../../assets/img/BackgroundImages.png"
 
 function FreeTrialSection(props) {
     return (
-        <section className= "container mt-[50px] flex justify-around items-center bg-cover w-full h-[334px]  "
+        <section className= "container mt-[50px] flex justify-around items-center bg-cover w-full h-[334px]  mb-[134px] "
         style={{ backgroundImage: `url(${Banner_2})` }} >
             <div className="">
                 <h2 className='w-[412px] text-white text-3xl font-bold  leading-9'>Start your free trial today!</h2>

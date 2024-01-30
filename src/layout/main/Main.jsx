@@ -22,7 +22,6 @@ function Main(props) {
             <FreeTrialSection/>
             </main>
             </div>
-            <Footer/>
             
         </div>
     );
